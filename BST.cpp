@@ -17,6 +17,7 @@ NodeInterface* BST ::getRootNode() const {
 }
 
 bool BST :: add(int data) {
+    duplicateCheck = true;
     insert(rootNode, data);
     return duplicateCheck;
 }
