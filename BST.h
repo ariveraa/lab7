@@ -12,6 +12,7 @@ class BST : public BSTInterface {
 
 protected:
     Node* rootNode;
+    bool duplicateCheck;
 
 
 public:

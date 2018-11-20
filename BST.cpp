@@ -5,6 +5,7 @@
 
 BST :: BST() {
     rootNode = NULL ;
+    duplicateCheck = true;
 }
 
 NodeInterface* BST ::getRootNode() const {
@@ -16,7 +17,8 @@ NodeInterface* BST ::getRootNode() const {
 }
 
 bool BST :: add(int data) {
-    return insert(rootNode, data);
+    insert(rootNode, data);
+    return duplicateCheck;
 }
 
 Node* BST :: insert(Node*& T, int val){
@@ -26,6 +28,7 @@ Node* BST :: insert(Node*& T, int val){
     }
     else if(T -> value == val){
         cout << "canot repeate" << endl;
+        duplicateCheck = false;
         return T;
     }
     if(val < T -> value){

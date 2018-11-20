@@ -12,10 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1a9423c-dd69-4eaa-9f8a-75f3b3804d5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BST.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BST.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BST.h" beforeDir="false" afterPath="$PROJECT_DIR$/BST.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab7-BST" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7-BST" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab7-BST/BSTInterface.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab7-BST/NodeInterface.h" beforeDir="false" />
@@ -25,12 +21,6 @@
       <change beforePath="$PROJECT_DIR$/Lab7-BST/file4.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab7-BST/file5.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab7-BST/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab7.dir/BST.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab7.dir/BST.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab7.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab7.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab7.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab7.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab7" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out_file4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out_file4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out_file5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out_file5.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,19 +110,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/out_file3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2512">
+            <state>
               <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/out_file5.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1865" />
+            <state relative-caret-position="-2138" />
           </provider>
         </entry>
       </file>
@@ -250,30 +240,30 @@
       <option name="presentableId" value="Default" />
       <updated>1542261785907</updated>
       <workItem from="1542261789022" duration="203000" />
-      <workItem from="1542313607083" duration="14907000" />
+      <workItem from="1542313607083" duration="15430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15110000" />
+    <option name="totallyTimeSpent" value="15633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" />
@@ -384,13 +374,6 @@
         <state relative-caret-position="-608" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/out_file3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2512">
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__split_buffer">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -447,7 +430,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/out_file5.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1865" />
+        <state relative-caret-position="-2138" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/out_file3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
       </provider>
     </entry>
   </component>
