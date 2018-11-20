@@ -25,6 +25,7 @@ Node* BST :: insert(Node*& T, int val){
         return T;
     }
     else if(T -> value == val){
+        cout << "canot repeate" << endl;
         return T;
     }
     if(val < T -> value){
@@ -42,21 +43,30 @@ bool BST ::rem(Node *&T, int val) {
     if(T == NULL){
         return false;
     }
-    else if(T -> value == val){
-        if(T -> rightChild == NULL && T -> leftChild == NULL){
-            delete T;
-            T = NULL;
+    else {
+        if (val < T->value) {
+            return rem(T->leftChild, val);
         }
-        else if(T-> rightChild == NULL){
-            Node* replacement = T -> leftChild;
-            delete T;
-            T = replacement;
+        else if (val > T-> value) {
+            return rem(T-> rightChild, val);
         }
-        else if(T -> leftChild == NULL){
-            Node* replacement = T -> rightChild;
-            delete T;
-            T = replacement;
-        }
+
+
+//    else if(T -> value == val){
+//        if(T -> rightChild == NULL && T -> leftChild == NULL){
+//            delete T;
+//            T = NULL;
+//        }
+//        else if(T-> rightChild == NULL){
+//            Node* replacement = T -> leftChild;
+//            delete T;
+//            T = replacement;
+//        }
+//        else if(T -> leftChild == NULL){
+//            Node* replacement = T -> rightChild;
+//            delete T;
+//            T = replacement;
+//        }
         else {
             Node* oldNode = T;
             if(T -> leftChild == NULL) {
@@ -66,22 +76,22 @@ bool BST ::rem(Node *&T, int val) {
                 T = T -> leftChild;
             }
             else{
-                repalceParent(oldNode,T);
+                repalceParent(oldNode,oldNode ->leftChild);
             }
             delete oldNode;
-
+            return true;
 
         }
-        return true;
+
     }
-    if( val < T -> value){
-        return rem(T -> leftChild, val);
-    }
-    else
-        return rem(T-> rightChild, val);
+//    if( val < T -> value){
+//        return rem(T -> leftChild, val);
+//    }
+//    else
+//        return rem(T-> rightChild, val);
 }
 
-void BST :: repalceParent(Node*& oldParent, Node* localParent) {
+void BST :: repalceParent(Node*& oldParent, Node*& localParent) {
     if(localParent -> rightChild != NULL){
         repalceParent(oldParent, localParent -> rightChild);
     }

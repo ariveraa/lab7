@@ -32,3 +32,15 @@ BSTInterface.h
 iostream
 -
 
+/Users/ariveraa/CLionProjects/lab7/main.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+queue
+-
+BST.h
+/Users/ariveraa/CLionProjects/lab7/BST.h
+

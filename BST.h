@@ -23,7 +23,7 @@ public:
     void clear();
     Node* insert(Node*& T, int val);
     bool rem(Node*& T, int val);
-    void repalceParent(Node*& oldParent, Node* localParent);
+    void repalceParent(Node*& oldParent, Node*& localParent);
     void clearTree(Node*& T);
 
 };
