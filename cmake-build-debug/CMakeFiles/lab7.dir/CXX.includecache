@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ariveraa/CLionProjects/lab7/BST.cpp
+BST.h
+/Users/ariveraa/CLionProjects/lab7/BST.h
+
+/Users/ariveraa/CLionProjects/lab7/BST.h
+Node.h
+/Users/ariveraa/CLionProjects/lab7/Node.h
+BSTInterface.h
+/Users/ariveraa/CLionProjects/lab7/BSTInterface.h
+
+/Users/ariveraa/CLionProjects/lab7/BSTInterface.h
+NodeInterface.h
+/Users/ariveraa/CLionProjects/lab7/NodeInterface.h
+
+/Users/ariveraa/CLionProjects/lab7/Node.h
+iostream
+-
+NodeInterface.h
+/Users/ariveraa/CLionProjects/lab7/NodeInterface.h
+BSTInterface.h
+/Users/ariveraa/CLionProjects/lab7/BSTInterface.h
+
+/Users/ariveraa/CLionProjects/lab7/NodeInterface.h
+iostream
+-
+
